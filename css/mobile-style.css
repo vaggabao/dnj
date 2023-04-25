@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding:0;
+	margin:0;
+}
+
+.container {
+	width: 1366px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.header {
+	margin:0 auto;
+	width:100%;
+	padding: 0;
+}
+
+
+#head {
+	left: 0;
+    z-index:10;
+	margin:0 auto;
+    margin-top: -65px;
+	width: 100%;
+	height: 135px;
+	position:relative;
+	background:url(../image/headerbar.png) no-repeat;
+	background-position:bottom;
+}
+
+.content {
+	font-size:14px;
+	background-color: rgba(232,232,232,0.45);
+	width:100%;
+	height: 435px;
+	margin:0 auto;
+    margin-top: -37px;
+	position: relative;
+	overflow-y: auto;
+}
+
+.footer {
+	font-family: "Open Sans", sans-serif;
+	font-size:11px;
+    z-index:10;
+	margin:0 auto;
+	margin-top: -29px;
+	width:100%;
+	position: relative;
+}
+
+
+.login-div {
+	margin-right: 15px;
+	float: right;
+}
+
+.icon {
+	margin-left:150px;
+}
+
+
+.buttonslogin  {
+	font-family:"CAC Champagne";
+	font-size:20px;
+	color:#c0843d;
+	text-decoration:none;
+	cursor: pointer;
+	margin-top:5px;
+}
+
+.buttonslogin {
+	color: #c0843d;
+	text-decoration: none;
+}
+
+.buttonslogin:active {
+	color: #c0843d;	
+	text-decoration: none;
+}
+
+.buttonslogin:hover {
+	color: #c0843d;
+	text-decoration: none;	
+	font-weight: bolder;
+}
+
+.buttonslogin:focus {
+	color: #c0843d;	
+	text-decoration: none;
+}
+
+.iconlogin {
+	margin-bottom:9px;	
+}
+
+.navtext {
+	color:#c0843d;
+	font-family:"Monotype Corsiva";
+	font-size:20px;
+	text-align: right;
+	margin-right:18px;
+}
+
+
+/*Navigation*/
+
+/*Home Tab*/
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 0;
+	font-weight: bold;
+	font-family:"CAC Champagne";
+	font-size:40px;
+	float:right;
+}
+.nav ul li {
+	display: inline;
+}
+
+ul#menu a {
+	color: #c0843d;
+	text-decoration: none;
+}
+
+ul#menu a:active {
+	color: #c0843d;	
+	text-decoration: none;
+}
+
+ul#menu a:hover {
+	color: #c0843d;
+	text-decoration: none;
+}
+
+ul#menu a:focus {
+	color: #c0843d;	
+	text-decoration: none;
+}
+
+
+
+
+
+.fontstyle {
+	font-family:"Monotype Corsiva";
+	font-size:14px;
+	color:#c0843d;
+}
+
+.tablediv {
+	z-index:1;
+	font-family:"CAC Champagne";
+	font-size:20px;
+	color:#c0843d;
+}
+	
+
+.slideshow {
+	height: 100%;
+	width: 100%;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color:#000;
+}
+
+.main {
+	z-index: 10;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width:370px;
+	height:330px;
+	background-color:rgba(255,255,255,.75);
+	padding-top: 31px;
+	text-align:center;
+	color:#701919;
+	font-size:12px;
+}
+
+.buttondiv	{
+	margin-top: 20px;
+}
+
+.infoDiv {
+	margin-top: 15px;
+}
+
+.mainbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	cursor:pointer;
+	color:#701919;
+	font-family:arial;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+	width: 100%;
+	white-space: normal;
+}
+
+.mainbutton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+	text-decoration:none;
+	color:#701919;
+}
+.mainbutton:active {
+	top:1px;
+	text-decoration:none;
+	color:#701919;
+}
+
+.footer {
+	top: 570px;
+	font-family: "Open Sans", sans-serif;
+	font-size:11px;
+    z-index:10;
+	margin:0 auto;
+	width:1366px;
+	position:absolute;
+}
+
+.textreserve {
+	font-family:"Monotype Corsiva";
+	font-size:28px;
+	font-weight:600;
+	color:#c0843d;
+	text-align:center;
+	resize:none;
+}
+
+.reserv-div {
+	font-family:"Tw Cen MT";
+	font-size:17px;
+	text-align:left;
+	color:#654022;
+	float: left;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.mob-reserv-div {
+	font-family:"Tw Cen MT";
+	font-size:17px;
+	text-align:left;
+	color:#654022;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.reserv-border {
+	border:1px;
+	border-style:solid;
+	border-color:#c0843d;
+	border-radius:5px;
+	padding:10px;
+}
+
+
+.btn-margin {
+	margin:5px;
+}
+
+.textamenities {
+	font-family:"Monotype Corsiva";
+	font-size:28px;
+	margin-left:20px;
+	font-weight:600;
+	color:#654022;
+	text-align:left;
+}
+
+.textmainameni {
+	text-align:left;
+	font-family:"Tw Cen MT";
+	color:#c0843d;
+}
+
+.dateshadow:focus {
+	border-color: rgba(212, 177, 0, 0.8);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(212, 177, 0, 0.8);
+	outline: 0 none;
+}
+
+
+.dateshadow[readonly] {
+	cursor: pointer;
+	background-color: white;
+}
+
+.msgtext {
+	max-width:100%;
+	border-color: rgba(212, 177, 0, 0.8);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(212, 177, 0, 0.8);
+}
+
+.textboxtext{
+	text-align:center;
+	font-family:"Tw Cen MT";
+	color:#654022;
+}
+
+.msgtextalign {
+	text-align:left;
+	font-family:"Tw Cen MT";
+	color:#654022;
+	padding:10px;
+}
+
+

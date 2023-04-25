@@ -1,0 +1,32 @@
+/* content styles */
+
+#page-title-div {
+	margin-bottom: 2em;
+}
+
+#login-div {
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 50px 50px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+#login-div .control-label {
+	text-align: right;
+	padding: 6px 2px;
+}
+
+#login-div .form-control {
+	text-align: center;
+	width: 100%;
+}
+
+@media (max-width: 536px) {
+	#login-div {
+		padding: 20px;
+		width: 95%;
+		margin: 0 auto;
+	}
+}

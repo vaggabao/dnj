@@ -1,0 +1,46 @@
+/* content styles */
+
+#page-title-div {
+	margin-bottom: 2em;
+}
+
+#transactions-div {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#transactions-div .control-label {
+	text-align: right;
+	padding: 6px 2px;
+}
+
+#transactions-div .form-control {
+	text-align: center;
+	width: 100%;
+}
+
+#transactions-div .form-control:focus {
+	border-color: rgba(212, 177, 0, 0.8);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(212, 177, 0, 0.8);
+	outline: 0 none;
+}
+
+#transaction-table-mobile {
+	display: none;
+}
+
+.transaction-row-mobile {
+	margin-bottom: 20px;
+	border-top: 1px solid #CCCCCC;
+	padding-top: 10px;
+}
+
+@media (max-width: 750px) {
+	#transaction-table {
+		display: none;
+	}
+
+	#transaction-table-mobile {
+		display: inline;
+	}
+}

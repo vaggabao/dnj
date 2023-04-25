@@ -1,0 +1,70 @@
+
+.calendar-set {
+	padding: 0;
+	margin: 0;
+}
+
+.calendar-set table {
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#filter-div {
+	background: #FFFFFF;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+#filter-header-div {
+	height: auto;
+	padding: 5px;
+	color: #FFFFFF;
+	font-weight: bolder;
+	background: #333333;
+	margin-bottom: 5px;
+}
+
+#filter-criteria-div {
+	width: 98%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+/* manage-calendar modal */
+
+
+#loader {
+	display: none;
+}
+
+/* Bootstrap mods */
+
+#form-filter .form-group {
+	margin: 5px 0;
+}
+
+.control-label {
+	margin: 5px 0;
+	padding: 5px;
+	height: 25px;
+}
+
+.form-select {
+	max-width: 150px;
+	height: 25px;
+	padding: 2px 4px;
+	font-size: 12px;
+	line-height: 1;
+	border-radius: 0;
+	margin: 5px 0;
+}
+
+.form-year {
+	max-width: 50px;
+	height: 25px;
+	padding: 2px 4px;
+	font-size: 12px;
+	line-height: 1;
+	border-radius: 0;
+	margin: 5px 0;
+}

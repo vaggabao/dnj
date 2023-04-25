@@ -1,0 +1,122 @@
+#menu {
+	height: 80px;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	font-size: 11px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+#menu > ul {
+	width: auto;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: #333333;
+}
+
+#menu > ul li#responsive-tab {
+	display: none;
+	/* Hide for large screens */
+}
+
+#menu > ul li {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+#menu > ul li a {
+	height: 80px;
+	display: block;
+	padding: 30px 24px 30px 24px;
+	text-decoration: none;
+	color: #FFF;
+	text-shadow: 0px 1px 0px #000;
+}
+
+#menu > ul li a.active,
+#menu > ul li a:hover {
+	background: #910B0B;
+	color: #FFFFFF;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+
+
+
+#menu-right {
+	display: none;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+#menu-right > ul {
+	width: auto;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu-right > ul li {
+	display: block;
+	zoom: 1;
+}
+
+#menu-right > ul li a {
+	height: 65px;
+	display: block;
+	padding: 22px 40px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#menu-right > ul li a.active,
+#menu-right > ul li a:hover {
+	background: #910B0B;
+	color: #FFFFFF;
+}
+
+#menu-right .close-div {
+	height: 84px;
+}
+
+.navbar-right {
+	float: right;
+	display: none;
+	width: 80px;
+	height: 80px;
+	padding: 28px 22px;
+	cursor: pointer;
+}
+
+.navbar-right:hover {
+	background: #910B0B;
+}
+
+.navicon-line {
+	width: 36px;
+	height: 4px;
+	background: #FFFFFF;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+	#menu ul {
+		display: none;
+	}
+	
+	#menu-right {
+		display: block;
+	}
+
+	.navbar-right {
+		display: block;
+	}
+}
+

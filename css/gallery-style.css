@@ -1,0 +1,33 @@
+
+
+.content {
+	height: auto;
+}
+
+.main-content {
+	padding: 20px 20px 30px 20px;
+}
+
+#gallery-image-modal .modal-dialog {
+	margin-top: 5px;
+}
+
+#gallery-image-modal .modal-content {
+	border-radius: 0;
+}
+
+#gallery-image-modal .modal-body {
+	padding: 0;
+}
+
+#gallery-image-modal .close {
+	position: absolute;
+	z-index: 1000;
+	top: 2px;
+	right: 5px;
+}
+
+#image-div img{
+	width: 100%;
+	height: auto;
+}

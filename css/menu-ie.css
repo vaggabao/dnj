@@ -1,0 +1,57 @@
+#menu {
+	height: 70px;
+}
+
+#menu li{
+	display: inline-block;
+	margin-top: -40px;
+	margin-right: 14px;
+}
+
+#menu li a:hover {
+	text-decoration: underline;		
+}
+
+#menu li#first a {
+	/* Rotate div */
+	display: block;
+	-ms-transform: rotate(-6deg); /* IE 9 */
+	-webkit-transform: rotate(-6deg); /* Chrome, Safari, Opera */
+	transform: rotate(-6deg);
+	line-height: 1.5;
+	display: table;
+}
+
+#menu li#second a{
+	/* Rotate div */
+	display: block;
+	-ms-transform: rotate(-5deg); /* IE 9 */
+	-webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+	transform: rotate(-5deg);
+	line-height: 2;
+	display: table;
+}
+
+#menu li#third a{
+	/* Rotate div */
+	display: block;
+	-ms-transform: rotate(-2deg); /* IE 9 */
+	-webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+	transform: rotate(-2deg);
+	line-height: 2.3;
+	display: table;
+}
+
+#menu li#fourth a{
+	/* Rotate div */
+	display: block;
+	line-height: 2.5;
+	display: table;
+}
+
+#menu li#fifth a{
+	/* Rotate div */
+	display: block;
+	line-height: 2.5;
+	display: table;
+}

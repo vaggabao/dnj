@@ -1,0 +1,64 @@
+/* content styles */
+
+#page-title-div {
+	margin-bottom: 2em;
+}
+
+#home-div .control-label {
+	margin: 5px 0;
+}
+
+#home-div .form-control {
+	margin: 5px 0;
+	background: #FFFFFF;
+	cursor: pointer;
+}
+
+#sidebar-div #chat-div {
+	height: 180px;
+	border: 1px solid #428bca;
+	margin-bottom: 10px;
+}
+
+#sidebar-div .form-group {
+	margin-bottom: 0;
+}
+
+#sidebar-div textarea {
+	width: 100%;
+	border: 1px solid #428bca;
+	border-radius: 0;
+	resize: none;
+    word-wrap: break-word;
+    min-height: 54px;
+}
+
+#btn-send {
+	width: 100%;
+	border-radius: 0;
+	height: 54px;
+}
+
+#chat-div {
+	padding: 5px;
+	overflow-y: auto;
+}
+
+#chat-div .chat-admin-message,
+#chat-div .chat-tenant-message {
+	max-width: 70%;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+#chat-div .chat-admin-message {
+	float: left;
+	background: #f2dede;
+}
+
+#chat-div .chat-tenant-message {
+	float: right;
+	color: #FFFFFF;
+	background: #428bca;
+}

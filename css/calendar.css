@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+table.calendar {
+	background: #FFFFFF;
+	width: 245px;
+
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border: 1px solid #CCCCCC;
+	border-collapse: separate;
+}
+
+tr.calendar-row {
+
+}
+
+td.calendar-day-header {
+	background: #910B0B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	width: 35px;
+	height: 30px;
+
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border: 1px solid #910B0B;
+}
+
+td.calendar-day-head {	
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	width: 35px;
+	height: 30px;
+	background: #FFFFFF;
+}
+
+td.calendar-day {
+	color: #333333;
+}
+
+td.calendar-day-np {
+	background: #F9F9F9;
+}
+
+/* shared */
+td.calendar-day, td.calendar-day-np {
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	font-size: 11px;
+	font-weight: bold;
+	width: 35px;
+	height: 30px;
+	text-align: left;
+	vertical-align: top;
+	cursor: pointer;
+	padding: 0.18em;
+}
+
+td.calendar-day:last-child, td.calendar-day-np:last-child, td.startCell:last-child, td.selectedCell:last-child, td.endCell:last-child {
+	border-right: 0;
+}
+
+td.calendar-day:hover {
+
+}
+
+td.sel-start {
+	color: #333333;
+	background: url("../image/sel-start.png") no-repeat;
+	background-size: cover;
+}
+
+td.sel-hover {
+	color: #FFFFFF;
+	background: url("../image/sel-hover.png") no-repeat;
+	background-size: cover;
+}
+
+td.sel-end {
+	color: #FFFFFF;
+	background: url("../image/sel-end.png") no-repeat;
+	background-size: cover;
+}
+
+td.occ-start {
+	color: #333333;
+	background: url("../image/occ_start.png") no-repeat;
+	background-size: cover;
+}
+
+td.occ-selected {
+	color: #FFFFFF;
+	background: url("../image/occ_selected.png") no-repeat;
+	background-size: cover;
+}
+
+td.occ-end {
+	color: #FFFFFF;
+	background: url("../image/occ_end.png") no-repeat;
+	background-size: cover;
+}
+
+td.un-start {
+	color: #333333;
+	background: url("../image/un_start.png") no-repeat;
+	background-size: cover;
+}
+
+td.un-selected {
+	color: #333333;
+	background: url("../image/un_selected.png") no-repeat;
+	background-size: cover;
+}
+
+td.un-end {
+	color: #333333;
+	background: url("../image/un_end.png") no-repeat;
+	background-size: cover;
+}
+
+td.res-start {
+	color: #333333;
+	background: url("../image/res_start.png") no-repeat;
+	background-size: cover;
+}
+
+td.res-selected {
+	color: #333333;
+	background: url("../image/res_selected.png") no-repeat;
+	background-size: cover;
+}
+
+td.res-end {
+	color: #333333;
+	background: url("../image/res_end.png") no-repeat;
+	background-size: cover;
+}
+
+.overday {
+	color: #164B87;
+	text-shadow: 0px 1px 0px #FFF;
+}
+
+.currentday {
+
+}
+
+.currentday:hover {
+}
+
+
+.reserv-fnt-cal {
+	font-family:"Tw Cen MT";
+	font-size:15px;
+	color:#654022;
+	text-align:center;
+}
+
+.italicfont	{
+	font-style:italic;
+}

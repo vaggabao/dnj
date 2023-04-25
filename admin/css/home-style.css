@@ -1,0 +1,78 @@
+/* Administrator Home style */
+
+#home-div, #sidebar-div {
+	padding: 10px;
+}
+
+#home-div .page-header {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#tenant-div .control-label,
+#tenant-div .form-control-static {
+	padding: 3px 0 !important;
+}
+
+#tenant-div, #due-dates-div {
+	padding: 10px 20px;
+}
+
+#tenant-div .form-group {
+	margin: 0;
+	padding: 0 6px;
+}
+
+#tenant-div .control-label {
+	padding: 7px 0;
+	margin: 0;
+}
+
+#notification-div,
+#recent-div {
+	max-height: 300px;
+}
+
+#notifications-panel-body,
+#recent-panel-body {
+	max-height: 255px;
+	overflow-y: hidden;
+}
+
+#notifications-panel-body:hover,
+#recent-panel-body:hover {
+	max-height: 255px;
+	overflow-y: auto;
+}
+
+#notification-div .panel-body,
+#recent-div .panel-body {
+
+	padding: 0;
+}
+
+#notification-div .notify-row,
+#recent-div .notify-row,
+#notification-div .notify-no-row,
+#recent-div .notify-no-row {
+	padding: 15px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+#notification-div .notify-row:hover,
+#recent-div .notify-row:hover {
+	border-color: rgba(242, 222, 222, 0.8);
+	background-color: rgba(242, 222, 222, 0.4);
+}
+
+#notification-div .notify-row:hover,
+#recent-div .notify-row:hover {
+	border-color: rgba(242, 222, 222, 0.8);
+	background-color: rgba(242, 222, 222, 0.4);
+}
+
+/* bootstrap mods */
+
+.row {
+	margin: 0;
+}

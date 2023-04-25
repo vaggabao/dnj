@@ -1,0 +1,136 @@
+.mobile-content {
+	width: 100% !important;
+}
+
+#dateDiv {
+	font-family: "Tw Cen MT";
+	padding: 20px;
+}
+
+#dateDiv #errMsg {
+	display: none;
+	max-width: 250px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+#dateDiv a {
+	border: 0;
+	color: #c0843d;
+}
+
+#dateDiv a:hover {
+	text-decoration: underline !important;
+	color:#654022;
+}
+
+#dateDiv h4 {
+	padding: 5px;
+	margin: 10px 0;
+}
+
+#dateDiv label {
+	font-weight: 400;
+	margin: 5px 0;
+}
+
+#dateDiv input {
+	max-width: 250px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+#dateDiv button {
+	max-width: 250px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	white-space: normal;
+}
+
+#dateDiv .legends-div {
+	min-width: 185px;
+	max-width: 250px;
+	/* color: #FFFFFF; */
+	background-color: #F5F5F5;
+	border: 1px solid #C0843D;
+	border-radius: 1px;
+	margin: 0 auto !important;
+	margin-top: 10px!important;
+	padding: 5px;
+}
+
+#dateDiv .col {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#dateDiv #icon-available {
+	padding: 0;
+	background: #AED5FC;
+	border: 1px solid #AAA;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#dateDiv #icon-unavailable {
+	padding: 0;
+	background: #FFFFFF;
+	border: 1px solid #AAA;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+.reserv-div {
+	margin: 20px 0;
+	padding: 0;
+}
+
+.page-title {
+	font-family: "Monotype Corsiva";
+	font-size: 28px;
+	margin-left: 20px;
+	font-weight: 600;
+	color: #654022;
+	text-align: left;
+}
+
+.page-sub-title {
+	font-family: "Monotype Corsiva";
+	font-size: 25px;
+	margin-left: 20px;
+	font-weight: 600;
+	color: #654022;
+	text-align: left;
+}
+
+.reserv-div h3 {
+	margin: 30px 0 20px 0;
+	padding: 5px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	background: #c0843d;
+}
+
+.reserv-div h4 {
+	margin: 10px 0 5px 20px !important;
+	padding: 0;
+}
+
+.reserv-div p {
+	margin: 0 !important;
+	margin-left: 20px !important;
+}
+
+.reserv-div .reserve-context {
+	margin-top: 20px;
+}
+
+.reserv-div .reserve-context p {
+	margin: 0 !important;
+}

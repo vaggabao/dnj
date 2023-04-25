@@ -1,0 +1,62 @@
+/* content styles */
+
+#sidebar-div {
+	border-radius: 5px;
+}
+
+#page-title-div {
+	margin-bottom: 2em;
+}
+
+#info-div {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#info-div .control-label {
+	text-align: right;
+	padding: 6px 2px;
+	cursor: pointer;
+}
+
+#info-div .form-control {
+	width: 90%;
+	background: #FFFFFF;
+	cursor: pointer;
+}
+
+#info-view-div, #info-edit-div {
+	width: 70%;
+}
+
+.info-edit-footer {
+	text-align: right;
+	padding: 2em;
+}
+
+#extension-alert-div {
+	display: none;
+}
+
+
+@media (max-width: 1000px) {
+	#sidebar-div {
+		padding: 5px;
+		background: #EEE;
+	}
+	
+	#account-div {
+		margin-top: 20px;
+		padding: 10px;
+		background: #EEE;
+		border-radius: 5px;
+	}
+	
+	#info-view-div, #info-edit-div {
+		width: 100%;
+	}
+	
+	#info-div .form-group {
+		margin: 0;
+	}
+}

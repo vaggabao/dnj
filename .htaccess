@@ -1,0 +1,12 @@
+#Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^reservation/pending/([^/]+)/?$		reservation-pending.php?token=$1	[QSA,NC]
+RewriteRule ^reservation/cancel/([^/]+)/?$		reservation-cancel.php?token=$1		[QSA,NC]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [L]
+
+#RewriteCond %{THE_REQUEST}/?$ ^[A-Z]{3,}\s([^.]+)\.php [NC]
+#RewriteRule ^ %1 [R,L]

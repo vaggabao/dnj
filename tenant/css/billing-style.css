@@ -1,0 +1,50 @@
+/* content styles */
+
+#page-title-div {
+	margin-bottom: 2em;
+}
+
+#billing-div {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#billing-div .control-label {
+	text-align: right;
+	padding: 6px 2px;
+}
+
+#billing-div .form-control {
+	text-align: center;
+	width: 100%;
+}
+
+#billing-div .form-control:focus {
+	border-color: rgba(212, 177, 0, 0.8);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(212, 177, 0, 0.8);
+	outline: 0 none;
+}
+
+#billing-table-mobile {
+	display: none;
+}
+
+.billing-row-mobile {
+	margin-bottom: 20px;
+	border-top: 1px solid #CCCCCC;
+	padding-top: 10px;
+}
+
+@media (max-width: 700px) {
+	#billing-table {
+		display: none;
+	}
+
+	#billing-table-mobile {
+		display: inline;
+	}
+}
+
+.billing-row {
+	cursor: pointer;
+}

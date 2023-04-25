@@ -1,0 +1,73 @@
+
+
+.content {
+	height: auto;
+}
+
+.page-title {
+	font-family: "Monotype Corsiva";
+	font-size: 28px;
+	margin-left: 20px;
+	font-weight: 600;
+	color: #654022;
+}
+
+.default-font {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	color: #654022;
+}
+
+#contact-details-div {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#promenades-modal img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+/**
+ * Bootstrap mods
+ */
+
+.row {
+	margin: 0;
+	padding: 20px;
+}
+
+.left-indent {
+	text-indent: 50px;
+}
+
+
+/**
+ * Padding
+ */
+
+.padding-5 {
+	padding: 5px;
+}
+
+.padding-10 {
+	padding: 10px;
+}
+
+.padding-20 {
+	padding: 20px;
+}
+
+.side-padding-5 {
+	padding: 0 5px;
+}
+
+.side-padding-10 {
+	padding: 0 10px;
+}
+
+.side-padding-20 {
+	padding: 0 20px;
+}

@@ -1,0 +1,152 @@
+.page-title {	
+	font-family: "Monotype Corsiva";
+	font-size: 28px;
+	margin-left: 20px;
+	font-weight: 600;
+	color: #654022;
+	text-align: center;
+}
+
+#calendar-div {
+	margin-bottom: 40px;
+}
+.calendar-set {
+	padding: 0;
+	margin: 0;
+}
+
+.calendar-set table {
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#filter-div {
+	font-family: "Tw Cen MT";
+	margin-top: 20px;
+	background: #FFFFFF;
+	padding: 20px;
+	
+	border: 1px;
+	border-style: solid;
+	border-color: #c0843d;
+	border-radius: 5px;
+}
+
+#filter-divmain {
+	margin-top: 30px;
+	padding: 20px;
+}
+
+#filter-header-divmain {
+	height: auto;
+	padding: 5px;
+	font-weight: bolder;
+	margin-bottom: 5px;
+}
+
+#filter-header-div {
+	height: auto;
+	padding: 5px;
+	color: #FFFFFF;
+	font-weight: bolder;
+	background: #c0843d;
+	border-radius: 5px;
+	border-color: #c0843d;
+	margin-bottom: 5px;
+}
+
+#filter-criteria-div {
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#info-div {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#legends-div {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#legends-div .col {
+	margin: 5px;
+}
+
+#legends-div #icon-available {
+	padding: 0;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#legends-div #icon-unavailable {
+	padding: 0;
+	background: #DADADA;
+	border: 1px solid #CCCCCC;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#legends-div #icon-occupied {
+	padding: 0;
+	background: #00A2E8;
+	border: 1px solid #CCCCCC;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#legends-div #icon-reserved {
+	padding: 0;
+	background: #FFF97D;
+	border: 1px solid #CCCCCC;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+/* Bootstrap mods */
+
+#form-filter .form-group {
+	margin: 5px 0;
+}
+
+.control-label {
+	margin: 5px 0;
+	padding: 5px;
+	height: 25px;
+}
+
+.form-select {
+	max-width: 150px;
+	height: 25px;
+	padding: 2px 4px;
+	font-size: 12px;
+	line-height: 1;
+	border-radius: 0;
+	margin: 5px 0;
+}
+
+.form-year {
+	max-width: 50px;
+	height: 25px;
+	padding: 2px 4px;
+	font-size: 12px;
+	line-height: 1;
+	border-radius: 0;
+	margin: 5px 0;
+}
+
+.form-control:focus {	
+	border-color: rgba(212, 177, 0, 0.8);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(212, 177, 0, 0.8);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(212, 177, 0, 0.8);
+	outline: 0 none;
+}

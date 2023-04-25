@@ -1,0 +1,338 @@
+/* content styles */
+
+#sidebar-div {
+	border-radius: 5px;
+}
+
+#page-title-div {
+	margin-bottom: 2em;
+}
+
+#info-div {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.info-edit-footer {
+	text-align: right;
+	padding: 2em;
+}
+
+#extension-alert-div {
+	display: none;
+}
+
+@media (max-width: 1000px) {
+	#sidebar-div {
+		padding: 5px;
+		background: #EEE;
+	}
+	
+	#utilities-div {
+		margin-top: 20px;
+		padding: 10px;
+		background: #EEE;
+		border-radius: 5px;
+	}
+	
+	#info-view-div, #info-edit-div {
+		width: 100%;
+	}
+	
+	#info-div .form-group {
+		margin: 0;
+	}
+}
+
+#filter-div {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+
+
+#info-div .control-label {
+	text-align: right;
+	padding: 6px 2px;
+	cursor: pointer;
+}
+
+#info-div .form-control {
+	padding: 0 10px;
+	background: #FFFFFF;
+	cursor: pointer;
+}
+
+
+
+/* bootstrap mods */
+
+.form-text {
+	height: 25px;
+	font-size: 12px;
+	line-height: 1;
+	border-radius: 0;
+	margin: 5px 0;
+}
+
+.form-select {
+	height: 25px;
+	font-size: 12px;
+	line-height: 1;
+	border-radius: 0;
+	margin: 5px 0;
+}
+
+.form-btn {
+	font-size: 12px;
+	padding: 2px 7px;
+	margin: 5px 0;
+	border-radius: 0;
+	height: 25px;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+
+/* reservations style */
+
+#reservations-div .form-text {
+	margin: 0;
+	width: 80px;
+}
+
+#reservation-table td {
+	line-height: 2;
+}
+
+#reservation-table .btn {
+	height: 25px;
+}
+
+#reservation-table-mobile {
+	display: none;
+}
+
+.reservation-row-mobile {
+	padding: 10px;
+	border-top: 1px solid #CCCCCC;
+}
+
+.reservation-row-mobile p {
+	padding: 2px;
+}
+
+.reservation-row-mobile .form-text {
+	margin-top: -2px !important;
+	margin-left: 5px !important;
+}
+
+@media (max-width: 750px) {
+	#reservation-table {
+		display: none;
+	}
+
+	#reservation-table-mobile {
+		display: inline;
+	}
+}
+
+
+
+/* extensions style */
+
+#extensions-table-mobile {
+	display: none;
+}
+
+.extensions-row-mobile {
+	padding: 10px;
+	border-top: 1px solid #CCCCCC;
+}
+
+@media (max-width: 750px) {
+	#extensions-table {
+		display: none;
+	}
+
+	#extensions-table-mobile {
+		display: inline;
+	}
+}
+
+
+
+/* housekeeping style */
+
+#hk-table-mobile {
+	display: none;
+}
+
+.hk-row-mobile {
+	padding: 10px;
+	border-top: 1px solid #CCCCCC;
+}
+
+@media (max-width: 750px) {
+	#hk-table {
+		display: none;
+	}
+
+	#hk-table-mobile {
+		display: inline;
+	}
+}
+
+
+
+/* tenant style */
+
+#tenant-info-div {
+	display: none;
+}
+
+#tenant-info-div .form-group {
+	margin: 0;
+}
+
+#tenant-info-div .panel {
+	margin-bottom: 15px;
+}
+
+#tenant-info-div .panel-body {
+	padding: 20px;
+}
+
+#tenant-table-mobile {
+	display: none;
+}
+
+#billing-div .panel-body {
+	padding: 0;
+}
+
+#billing-div  .billing-row-mobile {
+	padding: 20px;
+}
+
+#billing-div  .billing-row-mobile:hover {
+	cursor: pointer;
+	border-color: rgba(242, 222, 222, 0.8);
+	background-color: rgba(242, 222, 222, 0.4);
+}
+
+.tenant-row-mobile {
+	padding: 10px;
+	border-top: 1px solid #CCCCCC;
+}
+
+@media (max-width: 750px) {
+	#tenant-table {
+		display: none;
+	}
+
+	#tenant-table-mobile {
+		display: inline;
+	}
+}
+
+.row-tenant {
+	cursor: pointer;
+}
+
+.row-tenant:hover {
+	color: #a94442;
+	background: #f2dede;
+}
+
+
+/* fee style */
+
+#fee-div {
+	padding: 10px 6px;
+}
+
+#fee-div .form-group {
+	margin: 0;
+	padding: 0 6px;
+}
+
+#fee-div .form-group:hover {
+	background: #f2dede;
+	border-radius: 5px;
+}
+
+#fee-div .input-group {
+	padding: 6px 2px;
+}
+
+.currency-addon {
+	width: auto;
+	border-radius: 0;
+	font-size: 12px;
+	padding: 0 12px;
+	color: #a94442;
+	background: #f2dede;
+}
+
+.input-group .form-text {
+	margin: 0;
+}
+
+/**
+ * transaction styles
+ */
+
+#txn-table-mobile {
+	display: none;
+}
+
+.txn-row-mobile {
+	padding: 10px;
+	border-top: 1px solid #CCCCCC;
+}
+
+@media (max-width: 750px) {
+	#txn-table {
+		display: none;
+	}
+
+	#txn-table-mobile {
+		display: inline;
+	}
+}
+
+/**
+ * My account styles
+ */
+
+#account-edit {
+	display: none;
+}
+
+#account-edit #btn-back {
+	margin-bottom: 10px;
+}
+
+#account-edit .form-group {
+	margin: 0;
+}
+
+#account-edit .form-text {
+	width: 50%;
+	font-size: 14px;
+	height: 30px;
+}
+
+#info-view-div .panel-title {
+	padding-top: 5px;
+}
+
+@media (max-width: 500px) {
+	#account-edit .form-text {
+		width: 100%;
+	}
+}
